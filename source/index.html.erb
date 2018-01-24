@@ -1,15 +1,38 @@
----
-title: Le Wagon - Middleman
----
+<div id="main-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators hidden">
+    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+    <li data-target="#main-slider" data-slide-to="1"></li>
+    <li data-target="#main-slider" data-slide-to="2"></li>
+  </ol>
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+  <div class="carousel-inner">
+    <div class="item active">
+      <!-- Set the first background image using inline CSS below. -->
+      <div class="img-fill" style="background-image: url('<%= image_path "1.jpg" %>');"></div>
+      <div class="carousel-caption">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bQL4PC_eA4g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <!-- Set the second background image using inline CSS below. -->
+      <div class="img-fill" style="background-image: url('<%= image_path "2.jpg" %>');"></div>
+      <div class="carousel-caption">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bQL4PC_eA4g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <!-- Set the third background image using inline CSS below. -->
+      <div class="img-fill" style="background-image: url('<%= image_path "3.jpg" %>');"></div>
+      <div class="carousel-caption">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bQL4PC_eA4g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

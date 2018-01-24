@@ -1,0 +1,40 @@
+body {
+  background-color: #E6E6E5;
+}
+
+.card-itmes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F1F3F4;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+
+  word-wrap: break-word;
+
+  margin-bottom: 15px;
+}
+
+.photo {
+  margin: 20px;
+}
+
+#titre-actu-dj {
+  margin-bottom: 50px;
+  color: #FFFFFF;
+}
+
+.taille {
+  word-wrap: break-word;
+}
+
+.content-actu-dj {
+background: -webkit-linear-gradient(to left, #333, #070101); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #333 , #070101); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+}

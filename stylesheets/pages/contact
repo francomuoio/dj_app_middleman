@@ -1,0 +1,83 @@
+/*Contact sectiom*/
+.content-header {
+  font-family: 'Oleo Script', cursive;
+  color: #fcc500;
+  font-size: 45px; }
+
+.section-content {
+  text-align: center; }
+
+#contact {
+  font-family: 'Teko', sans-serif;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #333;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #333, #070101);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #333, #070101);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff; }
+
+.contact-section {
+  padding-top: 40px; }
+
+.contact-section .col-md-6 {
+  width: 50%; }
+
+.contact-section .col-xs-12 {
+  width: 100%; }
+
+.form-line {
+  border-right: 1px solid #f1f1f1; }
+
+.form-group {
+  margin-top: 10px; }
+
+label {
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal; }
+
+.form-control {
+  font-size: 1.3em;
+  color: #080808; }
+
+textarea.form-control {
+  height: 135px;
+  /* margin-top: px;*/ }
+
+.submit {
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff; }
+
+.footerseparation {
+  background: black;
+  width: 25%;
+  margin-top: 50px; }
+
+.footericon {
+  padding-right: 30px;
+  margin-top: 25px;
+  color: #f1f1f1;
+  margin-bottom: 50px; }
+
+.fa-facebook-official:hover {
+  color: #29487D; }
+
+.fa-instagram:hover {
+  color: #420181; }
+
+.fa-youtube-square:hover {
+  color: #FF0000; }
+
+.info {
+  margin-top: 25px; }
+
+.inlineinfo {
+  display: inline;
+  font-size: 18px; }

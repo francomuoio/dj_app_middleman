@@ -7,14 +7,12 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-9109f8ed.css" rel="stylesheet" />
+    <link href="stylesheets/application-0792d9bb.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/images/favicon.png" rel="icon" type="image/png" />
   </head>
   <body>
-    
-
-<nav class="navpages" style="width: 100%;">
+    <nav class="navpages" style="width: 100%;">
   <div class=" container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -25,12 +23,9 @@
       </button>
     </div>
     <ul>
-      <a class="navbar-brand" href="#">LOGO ICI</a>
+      <a class="navbar-brand" href="index.html"><img src="images/logolucas-5c2c4ae8.png" alt="" style="height: 50px;"></a>
       <li>
         <a href="index.html" class="liens">Home</a>
-      </li>
-      <li>
-        <a href="tracks.html" class="liens">Tracks</a>
       </li>
       <li>
         <a href="contact.html" class="liens">Contact</a>
@@ -41,8 +36,6 @@
     </ul>
   </div><!-- /.container-fluid -->
 </nav>
-
-
 
 <nav class="choosenav navbar navbar-default">
   <div class="container-fluid">
@@ -74,47 +67,44 @@
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
-
 </nav>
 
-    <div id="main-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
-  <!-- Indicators -->
-  <ol class="carousel-indicators hidden">
-    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-    <li data-target="#main-slider" data-slide-to="1"></li>
-    <li data-target="#main-slider" data-slide-to="2"></li>
-  </ol>
+    
+   <div id="hero-wrapper">
+    <div class="carousel-wrapper">
+      <div id="hero-carousel" class="carousel slide carousel-fade">
+        <ol class="carousel-indicators">
+          <li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#hero-carousel" data-slide-to="1"></li>
+          <li data-target="#hero-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active image1" style="height: 1000px;">
 
-  <div class="carousel-inner">
-    <div class="item active">
-      <!-- Set the first background image using inline CSS below. -->
-      <div class="img-fill" style="background-image: url('images/1-1a0c86b5.jpg');"></div>
-      <div class="carousel-caption">
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/bQL4PC_eA4g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="item image2" style="height: 1000px;">
+            <img src="images/2-c81e7a1d.jpg" alt="2" />
+          </div>
+          <div class="item image3" style="height: 1000px;">
+            <img src="images/3-88a64750.jpg" alt="3" />
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="item">
-      <!-- Set the second background image using inline CSS below. -->
-      <div class="img-fill" style="background-image: url('images/2-1b4a5732.jpg');"></div>
-      <div class="carousel-caption">
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/bQL4PC_eA4g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <!-- Set the third background image using inline CSS below. -->
-      <div class="img-fill" style="background-image: url('images/3-bf1dfd99.jpg');"></div>
-      <div class="carousel-caption">
-        <div class="video-container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/bQL4PC_eA4g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-        </div>
+        <a class="left carousel-control" href="#hero-carousel" data-slide="prev">
+          <i class="fa fa-chevron-left left"></i>
+        </a>
+        <a class="right carousel-control" href="#hero-carousel" data-slide="next">
+          <i class="fa fa-chevron-right right"></i>
+        </a>
       </div>
     </div>
   </div>
-</div>
+
+<script type="text/javascript">
+$('.carousel').carousel({
+interval: 3000,
+pause: false
+})
+</script>
 
   </body>
 </html>

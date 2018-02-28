@@ -4,7 +4,7 @@ body {
 
 .card-itmes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #F1F3F4;
   margin-left: 50px;
@@ -12,6 +12,12 @@ body {
   margin-bottom: 25px;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.margin-right-card {
+  margin-right: 300px;
+  font-size: 25px;
+}
+
 
 .content {
 
@@ -37,4 +43,13 @@ body {
 background: -webkit-linear-gradient(to left, #333, #070101); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #333 , #070101); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
+}
+
+@media screen and (max-width: 425px) {
+.card-itmes {
+
+  background-color: #F1F3F4;
+
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 }

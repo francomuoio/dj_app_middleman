@@ -71,6 +71,12 @@ textarea.form-control {
   padding-right: 30px;
   color: #f1f1f1; }
 
+.footericon3 {
+  margin-top: 10px;
+  padding-right: 30px;
+  margin-left: 350px;
+  color: #f1f1f1; }
+
 .fa-facebook-official:hover {
   color: #29487D; }
 
